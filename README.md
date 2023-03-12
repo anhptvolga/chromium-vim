@@ -114,7 +114,7 @@ let searchalias g = "google" " Create a shortcut for search engines.
                              " For example, typing ':tabnew g example'
                              " would act the same way as ':tabnew google example'
 
-" Open all of these in a tab with `gnb` or open one of these with <N>goa where <N>
+" Open all of these in a tab with `gna` or open one of these with <N>goa where <N>
 let qmark a = ["http://www.reddit.com", "http://www.google.com", "http://twitter.com"]
 
 let blacklists = ["https://mail.google.com/*", "*://mail.google.com/*", "@https://mail.google.com/mail/*"]
@@ -190,7 +190,7 @@ set localconfig " Update settings via a local file (and the `:source` command) r
 ```
 
 ### Blacklists
- * The blacklists setting uses a custom inplementation of Chrome's @match pattern guidelines.
+ * The blacklists setting uses a custom implementation of Chrome's @match pattern guidelines.
    See https://developer.chrome.com/extensions/match_patterns for a description of the syntax.
 
 
